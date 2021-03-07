@@ -37,10 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dogs.apps.DogsConfig'
-    'rest-framework',
-    'corsheaders',
-    'dogs'
+    'dogs.apps.DogsConfig',
+    'rest_framework',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
