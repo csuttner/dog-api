@@ -1,8 +1,6 @@
 from rest_framework import serializers
-from games.models import GameCategory
-from games.models import Game
-from games.models import Player
-from games.models import PlayerScore
+from dogs.models import Dog
+from dogs.models import Breed
 
 class BreedSerializer(serializers.HyperlinkedModelSerializer):
   dogs = serializers.HyperlinkedRelatedField(
